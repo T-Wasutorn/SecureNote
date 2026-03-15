@@ -1,10 +1,10 @@
 SecureNote - Private Note Taking Application
 
     SecureNote is a modern, full-stack web application designed for secure and efficient personal note management. 
-Built with Next.js 15, the platform prioritizes data privacy and seamless user experience. 
-By integrating NextAuth.js for robust authentication and PocketBase for persistent cloud storage, 
-SecureNote ensures that user data is not only protected through HTTPS 
-but also accessible from any device at any time.
+    Built with Next.js 15, the platform prioritizes data privacy and seamless user experience. 
+    By integrating NextAuth.js for robust authentication and PocketBase for persistent cloud storage, 
+    SecureNote ensures that user data is not only protected through HTTPS 
+    but also accessible from any device at any time.
 
 This project is the part of "WEB APPLICATION DEVELOPMENT" subject. Created by Wasutorn Tasee (66010758)
 
