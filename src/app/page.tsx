@@ -1,14 +1,18 @@
-'use client'
+"use client";
+
+import Hero from "@/components/HeroMotion";
+// import { getServerSession } from "next-auth"
+// import { redirect } from "next/navigation"
 
 export default function Home() {
-  return (
-    <div className="flex w-screen h-screen bg-gray-300 justify-center items-center">
-      <div>
-        <h1 className="text-black">HELLOOOOOOOOOOOOOOOOOOOOOOOOOOO</h1>
-      </div>
-      <div>
 
-      </div>
-    </div>
+  // const session = await getServerSession()
+
+  // if (session) {
+  //   redirect("/notes")
+  // }
+
+  return (
+    <Hero/>
   )
 }

@@ -1,7 +1,12 @@
+const pocketBaseUrl = process.env.POCKETHOST_API_URL;
+const pocketAuthUrl = `${pocketBaseUrl}/collections/users/auth-with-password`;
+const pocketNotesUrl = `${pocketBaseUrl}/collections/notes/records`;
+const pocketRecords = `${pocketBaseUrl}/collections/users/records`;
+
 export async function GET() {
 
   const res = await fetch(
-   "https://app-tracking.pockethost.io/api/collections/notes/records"
+   pocketNotesUrl
   )
 
   const data = await res.json()
@@ -14,7 +19,7 @@ export async function POST(request: Request) {
  const body = await request.json()
 
  const res = await fetch(
-  "https://app-tracking.pockethost.io/api/collections/notes/records",
+  pocketNotesUrl,
   {
    method: "POST",
    headers: {
